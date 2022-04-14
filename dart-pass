@@ -1,0 +1,38 @@
+# Q1\ hour value supposed to be constant wich means we can't change it later on, but in the code we can we mean this is a mistake.
+
+
+Q2\
+
+void main()
+{
+string animal1 = dog;
+sring animal2  cat;
+string animal3 = cow;
+}
+
+abstract class animal {
+void printName();
+void printSound();
+}
+class dog extends animal {
+void printName() {
+print("DOG");
+}
+void printSound(){
+print("sound is high");
+}
+class cat extends animal {
+void printName() {
+print("CAT");
+}
+void printSound(){
+print("sound is low");
+}
+class cow extends animal {
+void printName() {
+print("COW");
+}
+void printSound(){
+print("sound is loud");
+}
+
