@@ -1,0 +1,11 @@
+a=int(input("how man numbers do you want to enter?"))
+for i in range(a) :
+
+    x = int(input("the numbers:"))
+    
+    if(x%2 == 0):
+        print("%d is even" %x)
+        
+        
+    else:
+        print("%d is odd" %x)
